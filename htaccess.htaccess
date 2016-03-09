@@ -1,0 +1,10 @@
+ErrorDocument 500 http://dev.vakantiehuisjetenerife.nl/Index/
+ErrorDocument 404 http://dev.vakantiehuisjetenerife.nl/Index/
+
+Options -MultiViews
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^ index.php [QSA,L]
