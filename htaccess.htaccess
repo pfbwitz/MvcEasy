@@ -1,5 +1,5 @@
-ErrorDocument 500 http://dev.vakantiehuisjetenerife.nl/Index/
-ErrorDocument 404 http://dev.vakantiehuisjetenerife.nl/Index/
+ErrorDocument 500 http://mydomain.com/my500doc.html
+ErrorDocument 404 http://mydomain.com/my404doc.html
 
 Options -MultiViews
 
