@@ -1,0 +1,67 @@
+body{
+    width: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 10pt;
+	color: black;
+	background-color: #ddd;
+}
+
+div.innerupdate{
+z-index: 99;
+}
+
+div#content{
+	width: 90%;
+	position: relative;
+	background-color: white;
+	margin: auto;
+	padding: 5px;
+	top: 80px; 
+}
+
+a{
+	text-decoration: none;
+	color: #db5e5e;
+	font-size: 12pt;
+}
+
+a:hover{
+	-webkit-transition: background 0.5s linear;
+	-moz-transition: background 0.5s linear;
+	-ms-transition: background 0.5s linear;
+	-o-transition: background 0.5s linear;
+	transition: background 0.5s linear;
+	color: grey;
+}
+
+a:visited{
+	text-decoration: none;
+	color: #db5e5e;
+}
+
+img.sliderimg{
+    height: 400px;
+    width: auto;
+    position: relative;
+    margin: auto;
+}
+
+input[type="submit"] {
+	color: white;
+	background-color: #db5e5e;
+	border: none;
+	padding: 3px;
+}
+
+input[type="submit"]:hover {
+	cursor: pointer;
+	-webkit-transition: background 0.5s linear;
+	-moz-transition: background 0.5s linear;
+	-ms-transition: background 0.5s linear;
+	-o-transition: background 0.5s linear;
+	transition: background 0.5s linear;
+	background-color: #FAA0A0;
+	
+}
