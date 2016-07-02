@@ -5,7 +5,7 @@ class SQLException extends RuntimeException{
 
 abstract class BaseEntity {
 	protected $_id;
-    protected static $_tablename;
+    protected $_tablename;
     
 	public function __get($name){
 		$property = '_' . strtolower($name);
